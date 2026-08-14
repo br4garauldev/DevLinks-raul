@@ -6,7 +6,7 @@
 
 :root {
   --text-color: white;
-  --bg-url: url(./bg-mobile.jpg);
+  --bg-url: url(./assets/bg-mobile.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -16,7 +16,7 @@
 
 .light {
   --text-color: black;
-  --bg-url: url(./bg-mobile-light.jpg);
+  --bg-url: url(./assets/bg-mobile-light.jpg);
   --stroke-color: rgba(0, 0, 0, 0.1);
   --surface-color: rgba(0, 0, 0, 0.05);
   --highlight-color: rgba(0, 0, 0, 0.1);
@@ -25,7 +25,7 @@
 
 body {
   /*
-  background-image: url(./bg-mobile.jpg);
+  background-image: url(./assets/bg-mobile.jpg);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -133,7 +133,7 @@ ul li a {
 /* pseudo-selectors */
 ul li a:hover {
   background: var(--surface-color-hover);
-  border: 1px solid solid var(--text-color);
+  border: 1px solid var(--text-color);
 }
 
 /* social links */
